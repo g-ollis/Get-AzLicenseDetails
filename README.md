@@ -2,7 +2,9 @@
 
 - PowerShell function for gathering license information for single users or all users, provides license names in friendly format without using a skuid.
 - Good way to find disabled users that may still have licenses or guest users within your Azure Active Directory tenant.
-
+```diff
+! This command requires the AzureAD PowerShell module installed!
+```
 # Get-AzLicenseDetails -userPrincipalName 
 
 userPrincipalName parameter will provide license information for one user. 
